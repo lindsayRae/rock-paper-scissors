@@ -1,0 +1,27 @@
+* {                                      /* The * selector means ALL except the later styles that will override this */
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+body {                              /* I matched the background color with my image's background color */
+    background-color: #8fcbbf;
+}
+
+h1 {
+    color: rgb(112, 102, 102);
+    font-family: 'Rammetto One', cursive;
+}
+
+.player {    
+    font-size: 40px;
+}
+
+#resultBox {
+    padding-top: 30px;    
+    font-size: 30px;
+}
+
+.container {
+    padding-top: 25px;
+}
+
