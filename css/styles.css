@@ -1,9 +1,10 @@
-* {                                      /* The * selector means ALL except the later styles that will override this */
+/* The * selector means ALL except the later styles that will override this */
+* {                                      
     font-family: 'Oswald', sans-serif;
     color: white;
 }
-
-body {                              /* I matched the background color with my image's background color */
+ /* I matched the background color with my image's background color */
+body {                             
     background-color: #8fcbbf;
 }
 

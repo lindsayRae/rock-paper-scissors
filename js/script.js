@@ -13,11 +13,11 @@ $(document).ready(function () {
 
                         if (comp == 1) {
                                 return "Player 1 you tie! You selected rock and computer selected " + options[0];
-                               
+
                         } else if (comp == 2) {
                                 return "Player 1 you lose. You selected rock and computer selected " + options[1];
-                               
-                        } else {                                
+
+                        } else {
                                 return "Player 1 you WIN!!! You selected rock and computer selected " + options[2];
                         }
                 }
@@ -50,7 +50,7 @@ $(document).ready(function () {
                 event.preventDefault();
                 $("#resultBox").empty();
                 var computerChoice = Math.floor((Math.random() * 3) + 1);
-                var result = checkWinner("rock", computerChoice);                
+                var result = checkWinner("rock", computerChoice);
                 $("#resultBox").append(result);
 
         });
